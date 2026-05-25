@@ -16,3 +16,6 @@ A Monopoly-style board game developed in Python using OOP concepts and game logi
 
 ## Purpose
 This project was created to practice Python programming, game logic, and software design concepts.
+
+## Game Preview
+![Game Screenshot](game-screenshot.png)
