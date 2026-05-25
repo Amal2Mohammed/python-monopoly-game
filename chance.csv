@@ -1,0 +1,17 @@
+,text,action,value
+0,"Advance to ""Go""",move+,0
+1,"Go to jail. Move directly to jail. Do not pass ""Go"". Do not collect £200",move,10
+2,"Advance to Pall Mall. If you pass ""Go"" collection £200",move+,11
+3,"Take a trip to Marylebone Station and if you pass ""Go"" collect £200",move+,5
+4,"Advance to Trafalgar Square. If you pass ""Go"" collect £200",move+,24
+5,Advance to Mayfair,move+,39
+6,Go back three spaces,back,3
+7,Make general repairs on all of your houses. For each house pay £25. For each hotel pay £100,payfunction,"""general repairs function"""
+8,"You are assessed for street repairs: £40 per house, £115 per hotel",payfunction,"""street repairs function"""
+9,Pay school fees of £150,pay,150
+10,"""Drunk in charge"" fine £20",pay,20
+11,Speeding fine £15,pay,15
+12,Your building loan matures. Receive £150,receive,150
+13,You have won a crossword competition. Collect £100,receive,100
+14,Bank pays you dividend of £50,receive,50
+15,Get out of jail free. This card may be kept until needed or sold,jail card,
